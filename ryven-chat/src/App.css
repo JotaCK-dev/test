@@ -1,0 +1,18 @@
+/* App-specific styles */
+.App {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Remove default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full height layout */
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
